@@ -1,4 +1,4 @@
-/* Write a program that consists of three classes, A, B, and C, such that B extends
+package OOP;/* Write a program that consists of three classes, A, B, and C, such that B extends
 A and that C extends B. Each class should define an instance variable named “x”
 (that is, each has its own variable named x). Describe a way for a method in C
 to access and set A’s version of x to a given value, without changing B or C’s

@@ -1,4 +1,4 @@
-
+package OOP;
 /*
 Define a Polygon interface that has methods area() and perimeter(). Then implement classes for Triangle, Quadrilateral, Pentagon, Hexagon, and Octagon,
 which implement this interface, with the obvious meanings for the area() and
@@ -7,7 +7,8 @@ polygons of the various types, input their geometric dimensions, and then output
 specifying their vertex coordinates and be able to test if two such polygons are
 similar.
  */
-import java.util.*;
+
+import java.util.Scanner;
 interface Polygon{
     double area();
     double perimeter();
